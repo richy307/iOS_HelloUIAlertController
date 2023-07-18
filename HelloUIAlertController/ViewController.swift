@@ -30,7 +30,7 @@ class ViewController: UIViewController {
             self.dismiss(animated: true, completion: nil)
         }
         
-        // define alert button 3
+        // UIAlertAction // define alert button 3
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel) {
             (action:UIAlertAction) in
             print("Cancel")
