@@ -9,8 +9,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // Alert Button Action
     @IBAction func showAlert(_ sender: UIButton) {
-        // define alert
+        
+        // define Alert Controller // title, message
         let myAlert = UIAlertController(title: "Hello",
                                         message: "How are you?",
                                         preferredStyle: UIAlertController.Style.alert)
@@ -41,7 +43,7 @@ class ViewController: UIViewController {
         myAlert.addAction(helloAction)
         myAlert.addAction(cancelAction)
         
-        // show Alert
+        // show Alert Controller
         present(myAlert, animated: true, completion: nil)
     }
     
